@@ -39,7 +39,17 @@ main {
 
 section {
     max-width: 33%;
-    min-height: 35vh;
+    min-height: 30vh;
+}
+
+.greetings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greetings h1 {
+    font-size: 2vw;
 }
 
 footer p {
